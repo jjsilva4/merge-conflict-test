@@ -26,9 +26,12 @@ Please follow these prep step instructions, but make sure you have forked and cl
 3. Checkout the `merge-conflict` branch
 4. Use the `git merge dev` to attempt a merge. Conflict should trigger
 5. Use a file editor tool to open conflicted file (or use preferred conflict resolution tool that is NOT GitKraken)
-  - Accept the `dev` version of lines 25-27
-  - Accept the `merge-conflict` version of lines 50-58
-  - Change line 6 from "Wonder Kraken" to "Keif Kraken"
+  - Index.md
+    - Accept the `dev` version of lines 25-27
+    - Accept the `merge-conflict` version of lines 50-58
+    - Change line 6 from "Wonder Kraken" to "Keif Kraken"
+  - reset.css
+    - Accept `dev` version 
 6. Stage changes and commit to resolve conflict.
 7. Stop timer and write down duration. 
 
@@ -45,9 +48,12 @@ Please follow these prep step instructions, but make sure you have forked and cl
 3. Select the "Merge "merge-conflict" into "dev"" option
 4. Conflict should trigger
 5. Use the merge tool to resolve the conflict such that: 
-  - Accept the `dev` version of lines 25-27
-  - Accept the `merge-conflict` version of lines 50-58
-  - Change line 6 from "Wonder Kraken" to "Keif Kraken"
+- Index.md
+    - Accept the `dev` version of lines 25-27
+    - Accept the `merge-conflict` version of lines 50-58
+    - Change line 6 from "Wonder Kraken" to "Keif Kraken"
+- reset.css
+    - Accept `dev` version
 6. Stage changes and commit to resolve conflict.
 7. Stop timer and write down duration. 
 
