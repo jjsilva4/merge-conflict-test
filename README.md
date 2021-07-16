@@ -38,7 +38,7 @@ Please follow these prep step instructions, but make sure you have forked and cl
 ### Reset repo
 
 1. Open repo in GitKraken
-2. Reset `dev` branch to "Merge branch 'add-bio' into dev" commit (SHA: 357cbb46beb4a42db0f7728a2059aa67300f98ff) and discard all changes.
+2. Reset `dev` branch to "Margins at 10" commit (SHA: adc29a2f78b868e5d6b81febf7c86cc92d10898d) and discard all changes.
 
 ### Test 2: Trigger the merge conflict in the GK
 
