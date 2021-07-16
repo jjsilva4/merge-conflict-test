@@ -1,26 +1,55 @@
-# Get Crackin' with Git using GitKraken!
+## Merge Conflict Tests
 
-In this workshop, participants learn how to use GitKraken's Git GUI and GitKraken Boards to collaborate on a project. This is the source code for that project! 
+Thanks for helping us with this project! We're looking to get 2 durations from you:
 
-## Complete This Workshop 
+- Duration of resolving merge conflict in the CLI
+- Duration of resolving merge conflict in GitKraken
 
-To complete this workshop, follow the steps below: 
-1. Gather a few friends! You'll need a team of 3 people to really see the power of collaborating with GitKraken. 
-2. Visit [https://github.com/](https://github.com/) if you don't already have a GitHub account. 
-3. Then, visit [https://www.gitkraken.com/](https://www.gitkraken.com/) to sign up for GitKraken. 
-4. Download and install the GitKraken Git GUI. 
-5. One person on your team should fork this repository. 
-6. Then, that person should add each other person on the team as a collaborator. 
-7. Each person should clone the fork of this repo in the GitKraken Git GUI. 
-8. Copy lines 41-49 of index.html and paste them below. 
-9. Update them with information about yourself. 
-10. Use GitKraken to commit changes, open and review pull requests, and merge changes. 
-11. Voila! You're an expert. 
+### What you need
 
-## Become a GitKraken Ambassador! 
+- Clone this repo to your local machine (it's okay to use GK)
+- Have a text editor handy (VS Code, Atom, Notepad++ etc)
+- Locate the stopwatch feature on your phone or any other app
 
-Love GitKraken? Want to earn awesome swag while sharing the love? Read below: 
+Please follow these prep step instructions, but make sure you have forked and cloned the repo.
 
-The Get Crackin’ with Git using GitKraken workshop requires you (the organizer) and all participants to create GitKraken accounts. Make sure to create your account first, and then provide your [referral link](https://app.gitkraken.com/referrals) in the presentation slides for others to use when creating their accounts. GitKraken has an awesome referral program that allows you to win prizes, and following this process will ensure that all workshop participants’ accounts are associated with your referral code.
+### Pre-test prep:
 
-Hosting this workshop and sharing your referral link with participants will put you well on your way to becoming a GitKraken Ambassador! We highly recommend joining this community of industry professionals and student developers. This program will help increase your software development knowledge, build your professional skills, and provide further value to your local tech community. Get support for your events, improve your content, increase your reach, and get legendary swag! Check out the [GitKraken Ambassador Program](https://www.gitkraken.com/ambassador)!
+1. Clone the repo (no need to fork)
+
+
+### Test 1: Trigger the merge conflict in CLI
+
+
+1. Start your timer
+2. In the CLI, use the cd command to change directory to where your repo is located. For example, I used `cd ~/Sites/merge-conflict-test`
+3. Checkout the `merge-conflict` branch
+4. Use the `git merge dev` to attempt a merge. Conflict should trigger
+5. Use a file editor tool to open conflicted file (or use preferred conflict resolution tool that is NOT GitKraken)
+  - Accept the `dev` version of lines 25-27
+  - Accept the `merge-conflict` version of lines 50-58
+  - Change line 6 from "Wonder Kraken" to "Keif Kraken"
+6. Stage changes and commit to resolve conflict.
+7. Stop timer and write down duration. 
+
+### Reset repo
+
+1. Open repo in GitKraken
+2. Reset `dev` branch to "Merge branch 'add-bio' into dev" commit (SHA: 357cbb46beb4a42db0f7728a2059aa67300f98ff) and discard all changes.
+
+### Test 2: Trigger the merge conflict in the GK
+
+
+1. Start your timer
+2. In GitKraken, drag and drop the `merge-conflict` branch on top of `dev`
+3. Select the "Merge "merge-conflict" into "dev"" option
+4. Conflict should trigger
+5. Use the merge tool to resolve the conflict such that: 
+  - Accept the `dev` version of lines 25-27
+  - Accept the `merge-conflict` version of lines 50-58
+  - Change line 6 from "Wonder Kraken" to "Keif Kraken"
+6. Stage changes and commit to resolve conflict.
+7. Stop timer and write down duration. 
+
+
+That's it! Please submit your durations AND operating system to Jonathan over Slack. Thanks so much for your help.
