@@ -26,8 +26,8 @@ Please follow these prep step instructions, but make sure you have forked and cl
 3. Use the `git merge dev` to attempt a merge. Conflict should trigger
 4. Use a file editor tool to open conflicted file (or use preferred conflict resolution tool that is NOT GitKraken)
   - Index.md
-    - Accept the `dev` version of lines 25-27
-    - Accept the `merge-conflict` version of lines 50-58
+    - Accept the dev version of the Our Team section _(The founding was in 2020)_.
+    - Accept the merge-conflict version of About section _(I am not a cat)_.
     - Change line 6 from "Wonder Kraken" to "Keif Kraken"
   - reset.css
     - Accept `dev` version 
@@ -48,8 +48,8 @@ Please follow these prep step instructions, but make sure you have forked and cl
 4. Conflict should trigger
 5. Use the merge tool to resolve the conflict such that: 
 - Index.md
-    - Accept the `dev` version of the Our Team section (the found was in 2020).
-    - Accept the `merge-conflict` version of About section (I am not a cat).
+    - Accept the `dev` version of the Our Team section _(The founding was in 2020)_.
+    - Accept the `merge-conflict` version of About section _(I am not a cat)_.
     - Change line 6 from "Wonder Kraken" to "Keif Kraken"
 - reset.css
     - Accept `dev` version
