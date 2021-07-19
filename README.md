@@ -22,18 +22,17 @@ Please follow these prep step instructions, but make sure you have forked and cl
 
 
 1. Start your timer
-2. In the CLI, use the cd command to change directory to where your repo is located. For example, I used `cd ~/Sites/merge-conflict-test`
-3. Checkout the `merge-conflict` branch
-4. Use the `git merge dev` to attempt a merge. Conflict should trigger
-5. Use a file editor tool to open conflicted file (or use preferred conflict resolution tool that is NOT GitKraken)
+2. Checkout the `merge-conflict` branch
+3. Use the `git merge dev` to attempt a merge. Conflict should trigger
+4. Use a file editor tool to open conflicted file (or use preferred conflict resolution tool that is NOT GitKraken)
   - Index.md
     - Accept the `dev` version of lines 25-27
     - Accept the `merge-conflict` version of lines 50-58
     - Change line 6 from "Wonder Kraken" to "Keif Kraken"
   - reset.css
     - Accept `dev` version 
-6. Stage changes and commit to resolve conflict.
-7. Stop timer and write down duration. 
+5. Stage changes and commit to resolve conflict.
+6. Stop timer and write down duration. 
 
 ### Reset repo
 
@@ -49,8 +48,8 @@ Please follow these prep step instructions, but make sure you have forked and cl
 4. Conflict should trigger
 5. Use the merge tool to resolve the conflict such that: 
 - Index.md
-    - Accept the `dev` version of lines 25-27
-    - Accept the `merge-conflict` version of lines 50-58
+    - Accept the `dev` version of the Our Team section (the found was in 2020).
+    - Accept the `merge-conflict` version of About section (I am not a cat).
     - Change line 6 from "Wonder Kraken" to "Keif Kraken"
 - reset.css
     - Accept `dev` version
