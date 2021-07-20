@@ -15,8 +15,9 @@ Please follow these prep step instructions, but make sure you have forked and cl
 
 ### Pre-test prep:
 
-1. Clone the repo (no need to fork)
-2. Checkout the `dev` branch.
+1. Clone the repo (no need to fork) with GitKraken
+2. Checkout `merge-conflict` in GitKraken (to create local branch)
+3. Checkout the `dev` branch.
 
 
 ### Test 1: Trigger the merge conflict in CLI
@@ -37,7 +38,7 @@ Please follow these prep step instructions, but make sure you have forked and cl
 ### Reset repo
 
 1. Open repo in GitKraken
-2. Reset `dev` branch to "Sonic the Hedgehog" commit and discard all changes.
+2. Reset `dev` branch to "Mario and Luigi" commit and discard all changes.
 
 ### Test 2: Trigger the merge conflict in the GK
 
