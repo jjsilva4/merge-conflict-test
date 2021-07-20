@@ -16,14 +16,14 @@ Please follow these prep step instructions, but make sure you have forked and cl
 ### Pre-test prep:
 
 1. Clone the repo (no need to fork)
-2. Checkout the `merge-conflict` branch.
+2. Checkout the `dev` branch.
 
 
 ### Test 1: Trigger the merge conflict in CLI
 
 
 1. Start your timer
-2. Use the `git merge dev` to attempt a merge. Conflict should trigger
+2. Use the `git merge merge-conflict` to attempt a merge. Conflict should trigger
 3. Use a file editor tool to open conflicted file (or use preferred conflict resolution tool that is NOT GitKraken)
   - Index.md
     - Accept the dev version of the Our Team section _(The founding was in 2020)_.
@@ -37,7 +37,7 @@ Please follow these prep step instructions, but make sure you have forked and cl
 ### Reset repo
 
 1. Open repo in GitKraken
-2. Reset `dev` branch to "Other updates" commit (SHA: 21e8969d3e0aa4f822d8eb26568f0c81a241c4be) and discard all changes.
+2. Reset `dev` branch to "Sonic the Hedgehog" commit and discard all changes.
 
 ### Test 2: Trigger the merge conflict in the GK
 
