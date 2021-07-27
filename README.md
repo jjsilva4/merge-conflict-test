@@ -26,7 +26,7 @@ Please follow these prep step instructions, but make sure you have forked and cl
 1. Start your timer
 2. Use the `git merge merge-conflict` to attempt a merge. Conflict should trigger
 3. Use a file editor tool to open conflicted file (or use preferred conflict resolution tool that is NOT GitKraken)
-  - Index.md
+  - Index.html
     - Accept the dev version of the Our Team section _(The founding was in 2020)_.
     - Accept the merge-conflict version of About section _(I am not a cat)_.
     - Change line 6 from "Wonder Kraken" to "Keif Kraken"
@@ -38,14 +38,14 @@ Please follow these prep step instructions, but make sure you have forked and cl
 ### Reset repo
 
 1. Open repo in GitKraken
-2. Reset `dev` branch to "Mario and Luigi" commit and discard all changes.
+2. Reset `dev` branch to "Zelda and Link" commit and discard all changes.
 
 ### Test 2: Trigger the merge conflict in the GK
 
 1. Start your timer
 2. Merge "merge-conflict" into "dev". Conflict should trigger
 3. Use the merge tool to resolve the conflict such that: 
-- Index.md
+- Index.html
     - Accept the `dev` version of the Our Team section _(The founding was in 2020)_.
     - Accept the `merge-conflict` version of About section _(I am not a cat)_.
     - Change line 6 from "Wonder Kraken" to "Keif Kraken"
