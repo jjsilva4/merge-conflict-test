@@ -11,7 +11,7 @@ Thanks for helping us with this project! We're looking to get 2 durations from y
 - Have a text editor handy (VS Code, Atom, Notepad++ etc)
 - Locate the stopwatch feature on your phone or any other app
 
-Please follow these prep step instructions, but make sure you have forked and cloned the repo.
+Please follow these prep step instructions.
 
 ### Pre-test prep:
 
@@ -38,7 +38,7 @@ Please follow these prep step instructions, but make sure you have forked and cl
 ### Reset repo
 
 1. Open repo in GitKraken
-2. Reset `dev` branch to "Zelda and Link" commit and discard all changes.
+2. Reset `dev` branch to "Captain Falcon" commit and discard all changes.
 
 ### Test 2: Trigger the merge conflict in the GK
 
